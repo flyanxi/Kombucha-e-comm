@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#14180f"/>
+  <circle cx="180" cy="315" r="90" fill="url(#g)"/>
+  <text x="310" y="300" font-family="Georgia, serif" font-size="72" font-weight="700" fill="#ede8db">RAW<tspan fill="#d9a441">drops</tspan></text>
+  <text x="310" y="350" font-family="sans-serif" font-size="26" fill="#a9ac97">Live-brewed kombucha, bottled wild.</text>
+  <defs>
+    <radialGradient id="g" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#d9a441" />
+      <stop offset="70%" stop-color="#b9832b" />
+    </radialGradient>
+  </defs>
+</svg>

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" class="bg-base">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#14180f" />
+    <title>Order confirmed — RAW Drops</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <main class="status-page">
+      <div class="wrap status-page__inner">
+        <span class="brand__mark status-page__mark" aria-hidden="true"></span>
+        <p class="eyebrow" data-status-eyebrow>Confirming your order…</p>
+        <h1 class="status-page__title" data-status-title>One moment</h1>
+        <p class="status-page__note" data-status-note>
+          Checking your payment with Stripe.
+        </p>
+        <div class="status-page__summary" data-summary hidden></div>
+        <a class="btn btn--solid" href="/">Back to the shop</a>
+      </div>
+    </main>
+    <script type="module" src="/js/success.js"></script>
+  </body>
+</html>

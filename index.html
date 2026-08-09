@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en" class="bg-base">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="RAW Drops — small-batch raw kombucha, brewed live and bottled wild. Fresh cultures, bold botanicals, delivered."
+    />
+    <meta name="theme-color" content="#14180f" />
+
+    <!-- Open Graph / social preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="RAW Drops — Live-Brewed Kombucha" />
+    <meta
+      property="og:description"
+      content="Small-batch raw kombucha, brewed live and bottled wild. Fresh cultures, bold botanicals, delivered."
+    />
+    <meta property="og:image" content="/images/og-cover.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <title>RAW Drops — Live-Brewed Kombucha</title>
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Header -->
+    <header class="site-header" data-header>
+      <div class="wrap site-header__inner">
+        <a class="brand" href="/" aria-label="RAW Drops home">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__text">RAW<em>drops</em></span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#catalog">Flavors</a>
+          <a href="#story">Our Brew</a>
+          <a href="#stockists">Stockists</a>
+        </nav>
+
+        <button class="cart-toggle" data-cart-open aria-haspopup="dialog" aria-expanded="false" aria-controls="side-cart" aria-label="Open cart">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path d="M3 5h2l1.6 10.4a1 1 0 0 0 1 .85h8.5a1 1 0 0 0 1-.82L20 8H6" stroke-linecap="round" stroke-linejoin="round" />
+            <circle cx="9.5" cy="20" r="1.2" fill="currentColor" stroke="none" />
+            <circle cx="17" cy="20" r="1.2" fill="currentColor" stroke="none" />
+          </svg>
+          <span class="cart-toggle__badge" data-badge>0</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="wrap hero__inner">
+          <p class="eyebrow">Small-batch · Wild-fermented</p>
+          <h1 class="hero__title">Kombucha that&apos;s still&nbsp;alive.</h1>
+          <p class="hero__lede">
+            We brew in tiny runs, bottle raw, and never pasteurize. Every drop
+            carries living cultures and botanicals picked at peak. Cold from the
+            crock to your door.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--solid" href="#catalog">Shop the drops</a>
+            <a class="btn btn--ghost" href="#story">How we brew</a>
+          </div>
+          <ul class="hero__stats">
+            <li><strong>0g</strong><span>added sugar syrups</span></li>
+            <li><strong>1B+</strong><span>live cultures / bottle</span></li>
+            <li><strong>72h</strong><span>fresh-brew window</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Catalog -->
+      <section class="catalog-section" id="catalog">
+        <div class="wrap">
+          <div class="section-head">
+            <h2 class="section-head__title">This week&apos;s drops</h2>
+            <p class="section-head__note">Brewed Monday. Gone by Sunday.</p>
+          </div>
+          <div class="catalog" data-catalog aria-live="polite">
+            <!-- product cards injected by js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Story -->
+      <section class="story" id="story">
+        <div class="wrap story__inner">
+          <div class="story__col">
+            <h2>Raw means raw.</h2>
