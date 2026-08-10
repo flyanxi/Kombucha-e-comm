@@ -99,3 +99,76 @@
         <div class="wrap story__inner">
           <div class="story__col">
             <h2>Raw means raw.</h2>
+            <p>
+              No heat, no filtering, no shortcuts. We ferment on open shelves,
+              taste every batch by hand, and bottle the moment the acidity hits
+              the sweet spot. What you get is fizzy, funky, and full of life.
+            </p>
+          </div>
+          <div class="story__col">
+            <h2>Bottled the same day.</h2>
+            <p>
+              Because it&apos;s living, timing matters. Each drop ships within its
+              72-hour peak so the culture stays vibrant. Keep it cold, drink it
+              fresh, feel the difference.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stockists -->
+      <section class="stockists" id="stockists">
+        <div class="wrap">
+          <div class="section-head">
+            <h2 class="section-head__title">Find us nearby</h2>
+            <p class="section-head__note">New spots added monthly.</p>
+          </div>
+          <ul class="stockist-list">
+            <li class="stockist-item">
+              <span class="stockist-item__name">Greenhouse Market</span>
+              <span class="stockist-item__note">Downtown · fridge by the deli</span>
+            </li>
+            <li class="stockist-item">
+              <span class="stockist-item__name">Fermenter&apos;s Co-op</span>
+              <span class="stockist-item__note">Riverside · full flavor lineup</span>
+            </li>
+            <li class="stockist-item">
+              <span class="stockist-item__name">Sunday Provisions</span>
+              <span class="stockist-item__note">Old Mill · weekend restock</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap site-footer__inner">
+        <span class="brand__text">RAW<em>drops</em></span>
+        <p>Brewed live in small batches. &copy; 2026 RAW Drops Co. This is a portfolio demo — checkout is not connected to a real payment processor.</p>
+      </div>
+    </footer>
+
+    <!-- Off-canvas cart -->
+    <div class="overlay" data-overlay hidden></div>
+    <aside class="side-cart" id="side-cart" data-cart aria-label="Shopping cart" aria-hidden="true">
+      <header class="side-cart__head">
+        <h2>Your cart</h2>
+        <button class="side-cart__close" data-cart-close aria-label="Close cart">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round" />
+          </svg>
+        </button>
+      </header>
+      <div class="side-cart__body" data-cart-items></div>
+      <footer class="side-cart__foot">
+        <div class="side-cart__total">
+          <span>Total</span>
+          <strong data-cart-total>$0.00</strong>
+        </div>
+        <button class="btn btn--solid btn--full" data-checkout>Checkout</button>
+      </footer>
+    </aside>
+
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>
